@@ -1,0 +1,23 @@
+div.inside.sif-access-user {
+    text-align: center;
+}
+div.inside.sif-access-user img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #005787;
+}
+div.inside.sif-admin-feed div.sif_admin_image_block {
+    margin: 1% 1% 3%;
+    width: 23%;
+    height: auto;
+    display: inline-block;
+}
+div.inside.sif-admin-feed div.sif_admin_image_block img {
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 850px) { 
+    div.inside.sif-admin-feed div.sif_admin_image_block {
+        width: 48%;
+    }
+}

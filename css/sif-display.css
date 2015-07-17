@@ -1,0 +1,113 @@
+/*** Reset CSS ***/
+.sif-feed-container, .sif-feed, .sif-feed div, .sif-feed div img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.sif-feed-container, .sif-feed, .sif-feed-container button, .sif-feed div, .sif-feed p {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    color: #333;
+}
+.sif-feed-container p, .sif-feed p, .sif-profile-text p {
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #333;
+}
+.sif-feed-container a, .sif-info p a {
+    text-decoration: none;
+    color: #005787;
+    border-bottom: none;
+    border: none;
+}
+.sif-feed {
+    clear: both;
+    overflow: hidden; 
+}
+.sif-user-profile {
+    overflow: hidden;
+    width: 92%;
+    padding: 2% 4%;
+    height: auto;
+    margin: 0;
+    clear: both;
+}
+.sif-user-profile img {
+    float: left;
+    margin: 0 2% 0 5%;
+    width: auto;
+    height: auto;
+    max-width: 30%;
+    border-radius: 50%;
+}
+p.sif-full-name {
+    font-size: 1.5em;
+    color: #005787;
+    line-height: 1em;
+    margin-bottom: .5em;
+}
+span.sif-username {
+    font-size: .75em;
+    color: #333;
+}
+div.sif-info {
+    clear: both;
+    width: 100%;
+    padding: 0 1%;
+}
+div.sif_display_image_block {
+    margin: 1%;
+    width: 48%;
+    height: auto;
+    display: block;
+    float: left;
+    padding: 0;
+}
+div.sif_display_image_block a {
+    border: none;
+}
+div.sif_display_image_block a img:hover{
+    opacity: 0.5;
+}
+div.sif_display_image_block img {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+button.sif-load-more, div.sif-ajax-loading {
+    display: block;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 122px;
+    height: 0px;
+    padding: 50px 0 70px;
+    background: #EEE;
+    border: 1px solid #005787;
+    border-radius: 50%;
+    color: #005787;
+    font-weight: 400;
+    clear: both;
+}
+div.sif-ajax-loading {
+    padding: 40px 0 80px;
+}
+button.sif-load-more:hover, button.sif-load-more[disabled="disabled"] {
+    border-color: #333;
+    color: #333;
+    background: #EEE;
+}
+
+/*@media only screen and (max-width: 500px) { 
+    div.sif_display_image_block {
+        width: 98%;
+    } 
+}*/
